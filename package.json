@@ -1,0 +1,31 @@
+{
+
+	"name": "com.helvest.scriptabledata",
+
+	"version": "1.0.0",
+
+	"displayName": "Scriptable Data",
+
+	"description": "Base of script for a ScriptableObjetc Architecture",
+
+	"dependencies":
+	{
+	},
+
+	"keywords":
+	[
+		"ScriptableObjetc",
+
+		"Data",
+
+		"architecture"
+	],
+
+	"author":
+	{
+		"name": "Pedro Dominicé (Helvest)",
+
+		"url": "https://twitter.com/HelvestEpic"
+	}
+	
+}

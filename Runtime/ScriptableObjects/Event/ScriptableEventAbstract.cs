@@ -19,13 +19,13 @@ namespace Helvest.ScriptableData
 			if (_saveValue)
 			{
 				savedValue = value;
-			}	
+			}
 
 			if (useDebug)
 			{
 				Debug.Log(name + ": " + value.ToString(), this);
 			}
-			
+
 			action?.Invoke(value);
 		}
 

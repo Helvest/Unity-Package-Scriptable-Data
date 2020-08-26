@@ -1,16 +1,16 @@
-﻿using UnityEngine;
-using UnityEngine.Events;
-using System;
+﻿using System;
 using Helvest.ScriptableData;
+using UnityEngine;
+using UnityEngine.Events;
 
 namespace Helvest.ScriptableData
 {
 	public class ListenerVoid : MonoBehaviour
 	{
 		[SerializeField]
-		private ScriptableEventVoid _ScriptableEvent;
+		private ScriptableEventVoid _ScriptableEvent = null;
 		[SerializeField]
-		private UnityEvent _response;
+		private UnityEvent _response = null;
 
 		private void OnEnable()
 		{

@@ -5,9 +5,9 @@ namespace Helvest.ScriptableData
 	public class ListenerVector3Array : MonoBehaviour
 	{
 		[SerializeField]
-		private ScriptableEventVector3Array _ScriptableEvent = null;
+		private ScriptableEventVector3Array _ScriptableEvent;
 		[SerializeField]
-		private UnityEventVector3Array _response = null;
+		private UnityEventVector3Array _response;
 
 		private void OnEnable()
 		{
@@ -33,7 +33,7 @@ namespace Helvest.ScriptableData
 		}
 
 #if UNITY_EDITOR
-		public bool useDebug = false;
+		public bool useDebug;
 #endif
 	}
 }

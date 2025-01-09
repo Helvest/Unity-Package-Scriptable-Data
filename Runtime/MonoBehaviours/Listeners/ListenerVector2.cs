@@ -5,9 +5,9 @@ namespace Helvest.ScriptableData
 	public class ListenerVector2 : MonoBehaviour
 	{
 		[SerializeField]
-		private ScriptableEventVector2 _ScriptableEvent = null;
+		private ScriptableEventVector2 _ScriptableEvent;
 		[SerializeField]
-		private UnityEventVector2 _response = null;
+		private UnityEventVector2 _response;
 
 		private void OnEnable()
 		{

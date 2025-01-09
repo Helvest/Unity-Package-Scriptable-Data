@@ -10,7 +10,7 @@ namespace Helvest.ScriptableData
 	public class ScriptablePrefab<T> : ScriptableObject where T : Component
 	{
 		[SerializeReference]
-		private GameObject _prefab = null;
+		private GameObject _prefab;
 
 		[NonSerialized]
 		protected T _instance;

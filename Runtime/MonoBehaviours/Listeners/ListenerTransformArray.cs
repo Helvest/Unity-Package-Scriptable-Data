@@ -5,9 +5,9 @@ namespace Helvest.ScriptableData
 	public class ListenerTransformArray : MonoBehaviour
 	{
 		[SerializeField]
-		private ScriptableEventTransformArray _ScriptableEvent = null;
+		private ScriptableEventTransformArray _ScriptableEvent;
 		[SerializeField]
-		private UnityEventTransformArray _response = null;
+		private UnityEventTransformArray _response;
 
 		private void OnEnable()
 		{

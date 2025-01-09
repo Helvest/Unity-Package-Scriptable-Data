@@ -5,9 +5,9 @@ namespace Helvest.ScriptableData
 	public class ListenerInt : MonoBehaviour
 	{
 		[SerializeField]
-		private ScriptableEventInt _ScriptableEvent = null;
+		private ScriptableEventInt _ScriptableEvent;
 		[SerializeField]
-		private UnityEventInt _response = null;
+		private UnityEventInt _response;
 
 		private void OnEnable()
 		{

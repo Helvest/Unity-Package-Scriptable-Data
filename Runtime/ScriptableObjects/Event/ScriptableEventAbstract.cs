@@ -9,7 +9,7 @@ namespace Helvest.ScriptableData
 		public event Action<T> action;
 
 		[SerializeField]
-		private bool _saveValue = false;
+		private bool _saveValue;
 
 		[NonSerialized]
 		public T savedValue;
@@ -32,6 +32,6 @@ namespace Helvest.ScriptableData
 		[Header("Debug")]
 
 		[SerializeField]
-		private bool useDebug = false;
+		private bool useDebug;
 	}
 }
